@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-image: url(portfolio.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 800px;
+	width: 1435;
+}
+.christoffersoerensen{
+	width: 700px;
+	margin-left: 125px;
+	margin-right: 200px;
+	margin-top: 175px;
+	padding-bottom: 10px;
+}
+#wrapper{
+	height:10px;
+	width: auto; 
+}
+#logo {
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 200px;
+	float:left;
+}
+#menu {
+    float: right; 
+	margin-right: 105px;
+	margin-top: 25px;
+}
+#menu li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	font-family: din condensed, tahoma, verdana, arial, sans-serif; 
+	font-size: 1,5em;
+	
+}
+#menu a {
+	text-decoration: none;
+	float: none;
+	color: black;
+	margin-left: 50px;
+}
+
+#menu a:hover{
+	border-bottom: 1px solid black;
+	padding-bottom: 1px;
+}
+h1{
+	font-family: din condensed, tahoma, verdana, sans-serif;
+	text-align: center;
+	margin-top: 200px;
+}
+#parent {
+    width: 1000px;
+	margin-left: 20%;
+	margin-right: 20px;
+	margin-top: 1px;
+}
+
+.image {
+    float: left;
+    height: 203px;
+	margin: 10px;	
+	position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+	font-family: din condensed, tahoma, verdana, arial, sans-serif;
+	margin-top: 150px;
+	text-align: center;
+}
+#wrapper2{
+	width: 1000px;
+	float:left;
+	margin-left: 15px;
+	margin-top: 25px;
+	padding-top:50px;
+}
+.about{
+	float:left;
+	margin-left: 5%;
+	width:400px;
+	font-family: din condensed, tahoma, verdana, arial, sans-serif;
+}
+
+#kontakt{
+	margin-top: 50px;
+	margin-left: 250px;
+	background-attachment: fixed;
+	margin: 70px;
+	background-position: left;
+	padding: 50px 10px 10px 10px;
+	display: flex;
+	font-family: din condensed, tahoma, verdana, arial, sans-serif;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: skyblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker purple color */
+input[type=submit]:hover {
+    background-color: deepskyblue;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+p{
+	line-height: 25px;
+	font-family: din condensed, tahoma, verdana, sans-serif;
+}
+.quote{
+	margin-top: 300px;
+}
